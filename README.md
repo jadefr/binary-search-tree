@@ -9,10 +9,10 @@
 
 # Métodos
 * insert(int valor)
-  * A inserção é feita comparando-se o valor da raiz com o valor a ser inserido
+  * A inserção é feita comparando-se o valor a ser inserido com a raiz, recursivamente
   * Cria-se o nó para o valor a ser inserido
-  * Caso o valor seja menor que a raiz, insere-se o nó criado no filho esquerdo da raiz, de forma recursiva
-  * Caso contrário, insere-se no filho da direita recursivamente
+  * Caso o valor seja menor que a raiz, insere-se o nó como filho esquerdo da raiz
+  * Caso contrário, insere-se como filho da direita 
   
 * inOrder()
   * percorre a árvore imprimindo os valores, seguindo o percurso EVD (esquerda, visita, direita) 
