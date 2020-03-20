@@ -3,10 +3,6 @@ package com.company;
 public class BinarySearchTree {
     Node root;
 
-    public BinarySearchTree() {
-        this.root = null;
-    }
-
     public void insert(int data) {
         root = insert(root, data);
     }
