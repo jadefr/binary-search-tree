@@ -8,12 +8,14 @@ public class Main {
         binarySearchTree.insert(10);
         binarySearchTree.insert(15);
         binarySearchTree.insert(8);
-        binarySearchTree.insert(7);
-        binarySearchTree.insert(20);
-        binarySearchTree.insert(18);
-        binarySearchTree.insert(17);
-        binarySearchTree.insert(11);
+        binarySearchTree.insert(6);
+        binarySearchTree.insert(9);
+        binarySearchTree.insert(14);
+        binarySearchTree.insert(16);
 
         binarySearchTree.inOrder();
+        binarySearchTree.postOrder();
+        binarySearchTree.preOrder();
+
     }
 }

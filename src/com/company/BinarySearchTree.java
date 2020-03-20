@@ -21,7 +21,8 @@ public class BinarySearchTree {
     }
 
     public void inOrder() {
-       inOrder(root);
+        System.out.print("inOrder::  ");
+        inOrder(root);
     }
 
     public void inOrder(Node root) {
@@ -29,6 +30,34 @@ public class BinarySearchTree {
             inOrder(root.left);
             System.out.print(root.data + " ");
             inOrder(root.right);
+        }
+    }
+
+    public void postOrder() {
+        System.out.println("");
+        System.out.print("postOrder::  ");
+        postOrder(root);
+    }
+
+    public void postOrder(Node root) {
+        if (root != null) {
+            postOrder(root.left);
+            postOrder(root.right);
+            System.out.print(root.data + " ");
+        }
+    }
+
+    public void preOrder() {
+        System.out.println("");
+        System.out.print("preOrder::  ");
+        preOrder(root);
+    }
+
+    public void preOrder(Node root) {
+        if (root != null) {
+            System.out.print(root.data + " ");
+            preOrder(root.left);
+            preOrder(root.right);
         }
     }
 }
