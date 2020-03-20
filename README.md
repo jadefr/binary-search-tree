@@ -16,3 +16,9 @@
   
 * inOrder()
   * percorre a árvore imprimindo os valores, seguindo o percurso EVD (esquerda, visita, direita) 
+
+* postOrder()
+  * percorre a árvore imprimindo os valores, seguindo o percurso EDV (esquerda, direita, visita) 
+  
+* preOrder()
+  * percorre a árvore imprimindo os valores, seguindo o percurso VED (visita, esquerda, direita) 
