@@ -9,7 +9,7 @@
 
 # Métodos
 * insert(int data)
-  * chama o método insert(Node root, int data)
+  * chama o método _insert(Node root, int data)_
   
 * insert(Node root, int data)
   * a inserção é feita comparando-se o valor a ser inserido com a raiz, recursivamente
@@ -18,19 +18,19 @@
   * caso contrário, insere-se como filho da direita 
   
 * inOrder()
-  * chama o método inOrder(Node root)
+  * chama o método _inOrder(Node root)_
 
 * inOrder(Node root)
   * percorre a árvore imprimindo os valores, seguindo o percurso EVD (esquerda, visita, direita) 
 
 * postOrder()
-  * chama o método postOrder(Node root)
+  * chama o método _postOrder(Node root)_
   
-* postOrder()
+* postOrder(Node root)
   * percorre a árvore imprimindo os valores, seguindo o percurso EDV (esquerda, direita, visita) 
   
 * preOrder()
-  * chama o método preOrder(Node root)
+  * chama o método _preOrder(Node root)_
   
-* preOrder()
+* preOrder(Node root)
   * percorre a árvore imprimindo os valores, seguindo o percurso VED (visita, esquerda, direita) 
