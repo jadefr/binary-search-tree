@@ -41,3 +41,8 @@
   
 * preOrder(Node root)
   * percorre a árvore imprimindo os valores, seguindo o percurso VED (visita, esquerda, direita) 
+  
+  
+## Representação Gráfica
+
+![Image of screenshot](https://raw.githubusercontent.com/jadefr/ontology-testing/master/binary-search-tree.png)
