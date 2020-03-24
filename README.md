@@ -13,10 +13,10 @@
   
   
 * insert(Node root, int data)
-  * a inserção é feita comparando-se o valor a ser inserido com a raiz, recursivamente
-  * caso a raiz seja nula, cria-se um nó novo
-  * caso o valor recebido seja menor que a raiz, insere-se o nó como filho esquerdo da raiz
-  * caso contrário, insere-se como filho da direita 
+  * a inserção é feita comparando-se o valor a ser inserido com o nó pai, recursivamente
+  * caso o nó pai seja nulo, cria-se um novo nó
+  * caso o valor recebido seja menor que o nó pai, insere-se o nó como filho esquerdo do nó pai e chama-se a função passando o filho esquerdo como parâmetro
+  * caso contrário, insere-se como filho da direita e chama-se a função passando-o como parâmetro
   
   
 * inOrder()
