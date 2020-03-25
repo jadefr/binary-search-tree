@@ -12,6 +12,9 @@ public class Main {
         binarySearchTree.insert(9);
         binarySearchTree.insert(14);
         binarySearchTree.insert(16);
+        binarySearchTree.insert(21);
+        binarySearchTree.insert(3);
+        binarySearchTree.insert(7);
 
         binarySearchTree.inOrder();
         binarySearchTree.postOrder();

@@ -7,17 +7,17 @@ public class BinarySearchTree {
         root = insert(root, data);
     }
 
-    public Node insert(Node root, int data) {
-        if (root == null) {
-            root = new Node(data);
+    public Node insert(Node parent, int data) {
+        if (parent == null) {
+            parent = new Node(data);
         } else {
-            if (data < root.data) {
-                root.left = insert(root.left, data);
+            if (data < parent.data) {
+                parent.left = insert(parent.left, data);
             } else {
-                root.right = insert(root.right, data);
+                parent.right = insert(parent.right, data);
             }
         }
-        return root;
+        return parent;
     }
 
     public void inOrder() {
