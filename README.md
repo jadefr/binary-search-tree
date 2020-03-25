@@ -9,10 +9,10 @@
 
 # Métodos
 * insert(int data)
-  * chama o método _insert(Node root, int data)_
+  * chama o método _insert(Node parent, int data)_
   
   
-* insert(Node root, int data)
+* insert(Node parent, int data)
   * a inserção é feita comparando-se o valor a ser inserido com o nó pai, recursivamente
   * caso o nó pai seja nulo, cria-se um novo nó
   * caso o valor recebido seja menor que o nó pai, insere-se o nó como filho esquerdo do nó pai e chama-se a função passando o filho esquerdo como parâmetro
